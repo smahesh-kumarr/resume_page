@@ -1,0 +1,298 @@
+/* body{
+    color :beige
+    text-algin: center;
+    background-image: url('portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    background-attachment: fixed;
+}
+
+
+ AI reference  
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+/* AI Reference for body::before
+
+
+header{
+    background-color: black;
+    text-align: center;
+}
+header h1{
+    color: aliceblue;
+    padding: 10px;
+}
+header nav ul{
+    padding: 6px;
+}
+header nav ul li{
+    color: saddlebrown;
+    display: inline;
+    padding: 30px ;
+}
+
+header nav ul li a{
+    color: sandybrown;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+}
+main img{
+    text-align: center;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+#about{
+    color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+#Skills{
+    color: beige;
+}
+
+#Skills .skill{
+    color:black;
+} */
+
+/* body {
+    color: beige;
+    text-align: center;
+    background-image: url('portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header h1 {
+    color: aliceblue;
+    padding: 10px;
+}
+
+header nav ul {
+    padding: 6px;
+}
+
+header nav ul li {
+    color: saddlebrown;
+    display: inline;
+    padding: 30px;
+}
+
+header nav ul li a {
+    color: sandybrown;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+#about {
+    color: whitesmoke;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: justify;
+}
+
+#Skills {
+    color: beige;
+}
+
+#Skills .skill {
+    color: black;
+}
+
+#Skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Skills li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#Contact {
+    background-color: black;
+    color: beige;
+    padding: 20px;
+}
+
+#Contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Contact ul li {
+    margin: 10px 0;
+}
+
+#Contact ul li a {
+    color: sandybrown;
+    text-decoration: none;
+} */
+
+
+body {
+    color: beige;
+    text-align: center;
+    background-image: url('portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: aliceblue;
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: sandybrown;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+main img {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+#about {
+    color: whitesmoke;
+    padding: 0 15%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#Skills {
+    margin: 40px 0;
+}
+
+#Skills .skill {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#Skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Skills ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Skills ul li progress {
+    margin-left: 10px;
+    width: 200px;
+}
+
+footer {
+    background-color: black;
+    color: sandybrown;
+    padding: 20px 0;
+}
+
+footer h1 {
+    margin: 0 0 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: sandybrown;
+    text-decoration: none;
+    font-size: 1.1em;
+}
